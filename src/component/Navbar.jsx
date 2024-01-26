@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CgMenuGridO } from "react-icons/cg";
 import { VscClose } from "react-icons/vsc";
 const Navbar = () => {
-  const [isNav, setNav] = useState(false);
+  const [isNav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!isNav);
@@ -28,7 +28,7 @@ const Navbar = () => {
       <div
         className={
           !isNav
-            ? "fixed left-0 top-0 w-3/5 h-full boredr-r border-r-gray-900 bg-Background px-4 ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-3/5 h-full boredr-r border-r-gray-900 bg-Background px-4 ease-in-out duration-500 "
             : "fixed left-[-100%]"
         }
       >
