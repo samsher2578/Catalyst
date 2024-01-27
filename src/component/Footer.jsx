@@ -7,8 +7,8 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="max-w-7xl mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
-      <div className="">
+    <div className="max-w-7xl mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 ">
+      <div>
         <h1 className="w-full text-3xl font-bold text-Primary">REACT.</h1>
         <p className="py-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sunt,
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6 mx-10 ">
-        <div className="">
+        <div>
           <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">home</li>
@@ -33,7 +33,7 @@ const Footer = () => {
             <li className="py-2 text-sm">home</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <h6 className="font-medium text-gray-400">Support</h6>
           <ul>
             <li className="py-2 text-sm">home</li>
@@ -42,7 +42,7 @@ const Footer = () => {
             <li className="py-2 text-sm">home</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <h6 className="font-medium text-gray-400">Company</h6>
           <ul>
             <li className="py-2 text-sm">home</li>
@@ -52,7 +52,7 @@ const Footer = () => {
             <li className="py-2 text-sm">home</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <h6 className="font-medium text-gray-400">Legal</h6>
           <ul>
             <li className="py-2 text-sm">home</li>

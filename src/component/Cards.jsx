@@ -4,7 +4,7 @@ import triple from "../assets/triple.png";
 import { Tbtn } from "./Btn";
 const Cards = () => {
   return (
-    <div className="w-full py-40 bg-white">
+    <div className="w-full py-40 bg-white ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img

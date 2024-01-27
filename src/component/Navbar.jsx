@@ -28,10 +28,11 @@ const Navbar = () => {
       <div
         className={
           !isNav
-            ? "fixed left-0 top-0 w-3/5 h-full boredr-r border-r-gray-900 bg-Background px-4 ease-in-out duration-500 "
+            ? "fixed left-0 top-0 w-3/5 h-full boredr-r border-r-gray-900 bg-Background px-4 ease-in-out duration-500 bg-black "
             : "fixed left-[-100%]"
         }
       >
+        <h1 className="w-full text-3xl font-bold text-Primary mt-8">REACT.</h1>
         <ul className="pt-20 uppercase">
           <li className="p-4 border-b border-gray-600">Home</li>
           <li className="p-4 border-b border-gray-600">Company</li>
