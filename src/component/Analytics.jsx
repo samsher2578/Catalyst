@@ -1,4 +1,5 @@
 import laptop from "../assets/laptop.jpg";
+import { Dbtn } from "./Btn";
 const Analytics = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
@@ -19,9 +20,7 @@ const Analytics = () => {
             facere culpa deleniti rerum perspiciatis, adipisci aut corporis
             eaque fugit dignissimos similique tempore. Odit!
           </p>
-          <button className="bg-black w-52 rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-Primary">
-            Get Started
-          </button>
+          <Dbtn />
         </div>
       </div>
     </div>

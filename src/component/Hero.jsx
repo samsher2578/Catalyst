@@ -1,4 +1,5 @@
 import { ReactTyped } from "react-typed";
+import Btn from "./Btn";
 const Hero = () => {
   return (
     <div className="text-white">
@@ -25,9 +26,7 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-bold text-gray-500 py-3">
           Monitor your data analytics to increase for BTB, BTC & SASS platforms.
         </p>
-        <button className="bg-Primary w-52 rounded-md font-medium my-6 mx-auto py-3 text-black">
-          Get Started
-        </button>
+        <Btn />
       </div>
     </div>
   );

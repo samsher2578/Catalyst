@@ -1,6 +1,7 @@
 import single from "../assets/single.png";
 import double from "../assets/double.png";
 import triple from "../assets/triple.png";
+import { Tbtn } from "./Btn";
 const Cards = () => {
   return (
     <div className="w-full py-40 bg-white">
@@ -17,9 +18,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">1 Granted User</p>
             <p className="py-2 border-b mx-8"> send up to 2GB</p>
           </div>
-          <button className="bg-Primary w-52 rounded-md font-medium my-6 mx-auto py-3 text-black">
-            Set Trial
-          </button>
+          <Tbtn />
         </div>
         <div className="w-full shadow-xl bg-gray-100 md:my-0 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
@@ -49,9 +48,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">5 Granted User</p>
             <p className="py-2 border-b mx-8"> send up to 10GB</p>
           </div>
-          <button className="bg-Primary w-52 rounded-md font-medium my-6 mx-auto py-3 text-black">
-            Set Trial
-          </button>
+          <Tbtn />
         </div>
       </div>
     </div>
