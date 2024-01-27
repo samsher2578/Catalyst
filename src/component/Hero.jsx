@@ -14,7 +14,7 @@ const Hero = () => {
             Fast, Flexible Financing For
           </p>
           <ReactTyped
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-Primary"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
             backSpeed={140}
