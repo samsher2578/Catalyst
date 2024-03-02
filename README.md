@@ -1,4 +1,4 @@
-Live Demo : <a href="https://landing-page-git.vercel.app/">Landing-Page</a>
+Live Demo : <a href="https://landing-page-git.vercel.app/">Catalyst</a>
 
 # React + Vite
 
