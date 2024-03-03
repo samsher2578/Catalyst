@@ -1,4 +1,4 @@
-Live Demo : <a href="catalyst-kappa.vercel.app">Catalyst</a>
+Live Demo : <a href="https://catalyst-kappa.vercel.app/">Catalyst</a>
 
 # React + Vite
 
